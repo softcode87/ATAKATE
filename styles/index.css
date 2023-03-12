@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(/images/pexels-jean-van-der-meulen-1457842.jpg);
+    background-position: center;
+    filter: contrast(78%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+/*LOGO*/
+.logo img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    background-color: whitesmoke;
+}
+/*HOME PAGE*/
+.homedetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    background-color: rgb(59, 50, 50);
+}
+li a{
+    text-decoration: none;
+    padding-inline: 20px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li a:hover{
+    color: rgb(238, 42, 7);
+    background-color: rgb(241, 216, 239);
+
+}
+.homedetails p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 20, 20);
+}
+.homedetails span{
+    color: rgb(246, 248, 248);
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.hero h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(32, 29, 32)
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.hero p{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+}
+.hero .bttn{
+    margin-top: 15px;
+    width: 220px;
+    height: 45px;
+    background-color: rgb(219, 20, 219);
+    margin-left: 70px;
+    border: 0.8px solid rgb(219, 20, 219);
+    border-radius: 36px;
+    color: aqua;
+    font-size: 18px;
+    font-family: cursive;
+    }
+
+    .about{
+        height: 100vh;
+        width: 100vw;
+        padding: 100px;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-image: url(/images/pexels-gustavo-galeano-maz-8477426.jpg);
+    }
+    .abt{
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .abt p{
+        margin-left: 40px;
+        color:rgb(10, 5, 9); 
+        font-family:Georgia, 'Times New Roman', Times, serif; 
+        width: 800px; 
+        font-size: 22px;
+    }
+    .services{
+        padding-top: 45px;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(241, 216, 239);
+
+    }
+    .services h1{
+        font-size: 30px; 
+        color:rgb(19, 18, 19); 
+        text-align: center;
+    }
+    .services p{
+        font-size: 25px; 
+        color:rgb(49, 44, 49); 
+        text-align: center;
+
+    }
+    .services .serve{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    .serve img{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .serve ul{
+        list-style: none;
+    }
+
+    .l1{
+        display: block;
+        padding-top: 90px;
+        color: rgb(29, 25, 29);
+
+    }
+    .l1 li h2:hover{
+        background-color: rgb(219, 20, 219);
+        border: 0.8px solid rgb(219, 20, 219);
+        border-radius: 36px;
+        text-align: center;
+        color: black;
+    }
+    .l2{
+        display: flex;
+        
+    }
+    li{
+        padding: 10px;
+
+    }
+    .services button{
+        margin-top: 15px;
+        width: 180px;
+        height: 45px;
+        background-color: rgb(240, 111, 240);
+        margin-left: 670px;
+        border: 0.8px solid rgb(219, 20, 219);
+        border-radius: 36px;
+        color: aqua;
+        font-size: 18px;
+        font-family: cursive;
+    
+    }
+.roomoffers{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 65px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    background-color: rgb(187, 181, 187);
+}
+.bookingcontent{
+    padding-right: 100px;
+
+}
+.bookingdetails{
+    display: flex;
+    justify-content: center;
+
+}
+.form{
+    padding: 25px;
+}
+.form label{
+    padding: 10px;
+    margin: 10px;
+}
+.form input{
+    padding: 10px;
+    margin: 5px;
+}
+.form button{
+    margin-left: 450px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(240, 131, 240);
+    border: 0.8px solid rgb(219, 20, 219);
+    border-radius: 36px;
+    color: aqua;
+    font-size: 18px;
+    font-family: cursive;
+
+}
+.roomimages{
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+}
+.roomimages ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around
+}
+.roomimages li{
+    padding-inline: ;
+}
+
+.roomtype1{
+    background-image: url(/images/pexels-gustavo-galeano-maz-8477426.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 230px;
+
+}
+.roomtype1 h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    display: none;
+}
+.roomtype1 p{
+    padding-top: 70px
+}
+.roomtype1 span{
+    font-weight: bolder;
+    font-size: larger;
+}
+.roomtype1:hover{
+    background-image: url(/images/pexels-max-vakhtbovych-8135504.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 230px;
+
+}
+
+.roomtype1:hover h1{
+    display: block;
+}
+.roomtype1:hover p{
+    display: none;
+}
+
+
+/*CONTACT PAGE*/
+.contactpage{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.contactpage .inputs{
+    background-color: rgb(221, 141, 241);
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    padding: 100px;
+}
+.contactpage p{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    padding-bottom: 30px;
+}
+.contactpage label{
+    padding: 15px;
+}
+.contactpage .inpts{
+    margin: 15px;
+}
+.sendbtn{
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(219, 20, 219);
+    margin-left: 70px;
+    border: 0.8px solid rgb(219, 20, 219);
+    border-radius: 36px;
+    color: aqua;
+    font-size: 18px;
+    font-family: cursive;
+    
+}
+
+
+
+
+
+
+.footer{
+    background-color: palevioletred;
+    text-align: center;
+}
